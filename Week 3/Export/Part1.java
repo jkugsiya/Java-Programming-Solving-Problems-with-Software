@@ -6,9 +6,9 @@ public class Part1 {
     {
         FileResource fr = new FileResource();
         CSVParser parser = fr.getCSVParser();
-        //listExportersTwoProducts(parser, "cotton", "flowers");
+        listExportersTwoProducts(parser, "fish", "nuts");
         //System.out.println(numberOfExporters(parser,"cocoa"));
-        bigExporters(parser, "$999,999,999,999");
+        //bigExporters(parser, "$999,999,999,999");
     }
     
     public String countryInfo(CSVParser parser, String country)

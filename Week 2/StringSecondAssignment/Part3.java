@@ -66,6 +66,6 @@ public class Part3 {
     
     public void testCountGenes()
     {
-        System.out.println(countGenes("ATGTAAGATGCCCTAGT"));
+        System.out.println();
     }
 }
